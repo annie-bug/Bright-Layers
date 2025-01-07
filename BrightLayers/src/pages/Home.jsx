@@ -9,6 +9,7 @@ import ContactForm from '../pages/ContactForm.jsx'
 import Features from '../components/Features.jsx';
 import PeopleSaying from '../components/PeopleSaying.jsx';
 import InfiniteCarousel from '../components/InfiniteCarousel.jsx';
+import FeaturesPC from '../components/FeaturesPC.jsx';
 
 function Home() {
   return (
@@ -171,6 +172,10 @@ function Home() {
 
       <div>
         <Features />
+      </div>
+
+      <div className=''>
+        <FeaturesPC />
       </div>
 
 
