@@ -10,6 +10,7 @@ import Features from '../components/Features.jsx';
 import PeopleSaying from '../components/PeopleSaying.jsx';
 import InfiniteCarousel from '../components/InfiniteCarousel.jsx';
 import FeaturesPC from '../components/FeaturesPC.jsx';
+import BlogSpot from '../components/BlogSpot.jsx';
 
 function Home() {
   return (
@@ -185,6 +186,10 @@ function Home() {
 
       <div>
         <InfiniteCarousel />
+      </div>
+
+      <div>
+        <BlogSpot />
       </div>
 
       </div>
