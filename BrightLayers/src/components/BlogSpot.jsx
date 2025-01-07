@@ -22,7 +22,7 @@ function BlogSpot() {
     useEffect(() => {
         getPostData();
     }, []);
-  return (
+  return (  
 
     <div className='mx-[1.23rem] max-w-[90%] mt-[6.91rem]'>
             <p className="mx-auto text-center font-pSans  w-[14.94719rem] h-[1.12506rem] font-semibold text-[0.96431rem] leading-[1.13794rem] tracking-[0.00963rem]">Blog</p>
