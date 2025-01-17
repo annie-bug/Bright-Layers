@@ -11,6 +11,8 @@ import PeopleSaying from '../components/PeopleSaying.jsx';
 import InfiniteCarousel from '../components/InfiniteCarousel.jsx';
 import FeaturesPC from '../components/FeaturesPC.jsx';
 import BlogSpot from '../components/BlogSpot.jsx';
+import Floater from '../components/Floater.jsx';
+import FloaterForm from '../components/FloaterForm.jsx';
 
 function Home() {
   return (
@@ -190,6 +192,14 @@ function Home() {
 
       <div>
         <BlogSpot />
+      </div>
+
+      <div>
+        <Floater />
+      </div>
+
+      <div>
+        <FloaterForm />
       </div>
 
       </div>

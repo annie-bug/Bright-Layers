@@ -10,7 +10,8 @@ export default {
         title: ["Lato"],
         pSans: ["Public Sans"],
         inter: ["Inter"],
-        archivo: ["Archivo"]
+        archivo: ["Archivo"],
+        lexend: ["Lexend"]
       }
     },
   },
